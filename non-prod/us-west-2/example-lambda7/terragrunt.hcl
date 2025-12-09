@@ -44,7 +44,7 @@ inputs = {
   zip_file = "${get_terragrunt_dir()}/lambda.zip"
 
   # Required: Memory size in MB (128-10240)
-  memory_size = 128
+  memory_size = 256
 
   # Required: Timeout in seconds (1-900)
   timeout = 30
