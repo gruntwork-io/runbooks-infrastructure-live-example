@@ -47,7 +47,7 @@ inputs = {
   memory_size = 128
 
   # Required: Timeout in seconds (1-900)
-  timeout = 17
+  timeout = 30
 
   # Tags to apply to the Lambda function
   tags = {
