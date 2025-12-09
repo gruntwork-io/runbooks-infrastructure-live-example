@@ -44,10 +44,10 @@ inputs = {
   zip_file = "${get_terragrunt_dir()}/lambda.zip"
 
   # Required: Memory size in MB (128-10240)
-  memory_size = 256
+  memory_size = 128
 
   # Required: Timeout in seconds (1-900)
-  timeout = 30
+  timeout = 15
 
   # Tags to apply to the Lambda function
   tags = {
