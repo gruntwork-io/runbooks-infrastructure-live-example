@@ -47,7 +47,7 @@ inputs = {
   memory_size = 256
 
   # Required: Timeout in seconds (1-900)
-  timeout = 30
+  timeout = 15
 
   # Description of the Lambda function
   description = "This is my Lambda function"
