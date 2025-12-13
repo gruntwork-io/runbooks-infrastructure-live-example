@@ -35,7 +35,7 @@ inputs = {
   name = "example-lambda8-non-prod"
 
   # Required: The runtime environment for the Lambda function
-  runtime = "nodejs22.x"
+  runtime = "python3.13"
 
   # Required: The function entrypoint in your code (file.function_name format)
   handler = "app.handler"
