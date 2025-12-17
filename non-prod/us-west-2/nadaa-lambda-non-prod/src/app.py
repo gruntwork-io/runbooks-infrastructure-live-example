@@ -52,7 +52,7 @@ def handler(event, context):
     # Call LLM
     # Get response
     # Store response in var
-    my_response = "This is a placeholder response from the LLM."
+    my_response = "This is an UPDATED(!) placeholder response from the LLM."
 
     # Build response
     response_body = {
