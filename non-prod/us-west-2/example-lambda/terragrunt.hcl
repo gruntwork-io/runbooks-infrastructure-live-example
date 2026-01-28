@@ -35,7 +35,7 @@ inputs = {
   name = "example-lambda-non-prod"
 
   # Required: The runtime environment for the Lambda function
-  runtime = "python3.13"
+  runtime = "python3.12"
 
   # Required: The function entrypoint in your code (file.function_name format)
   handler = "app.handler"
@@ -48,6 +48,14 @@ inputs = {
 
   # Required: Timeout in seconds (1-900)
   timeout = 30
+
+  # Description of the Lambda function
+  description = "asdfasdf"
+
+  # Environment variables for the Lambda function
+  environment_variables = {
+    LOG_LEVEL = "WARNING"
+  }
 
   # Tags to apply to the Lambda function
   tags = {
